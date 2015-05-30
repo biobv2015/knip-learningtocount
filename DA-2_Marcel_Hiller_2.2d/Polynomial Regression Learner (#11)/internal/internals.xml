@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="internals">
+<config key="betas">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="9.911867125271556"/>
+<entry key="1" type="xdouble" value="-2.9498910813548687"/>
+<entry key="2" type="xdouble" value="0.1972495451457883"/>
+</config>
+<config key="columnNames">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="x"/>
+</config>
+<entry key="squaredError" type="xdouble" value="0.00656194048628309"/>
+<entry key="adjustedSquaredError" type="xdouble" value="0.9995271738447172"/>
+<config key="meanValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="5.8125"/>
+</config>
+<config key="stdErrors">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="0.02432928013449634"/>
+<entry key="1" type="xdouble" value="0.0017181353925695493"/>
+<entry key="2" type="xdouble" value="0.05437580457937068"/>
+</config>
+<config key="tValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="-121.24859696001508"/>
+<entry key="1" type="xdouble" value="114.8044246098623"/>
+<entry key="2" type="xdouble" value="182.2845142604464"/>
+</config>
+<config key="pValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xdouble" value="7.237752619460025E-10"/>
+<entry key="1" type="xdouble" value="9.509502074678267E-10"/>
+<entry key="2" type="xdouble" value="9.427902902814367E-11"/>
+</config>
+</config>
