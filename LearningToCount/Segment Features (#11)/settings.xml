@@ -6,42 +6,6 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="lab_column_selection_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="lab_column_selection" type="xstring" value="Image"/>
-<config key="appendDependencies_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="appendDependencies" type="xboolean" value="false"/>
-<config key="mode_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="mode" type="xboolean" value="false"/>
-<config key="append_segment_information_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="append_segment_information" type="xboolean" value="true"/>
-<config key="filter_left_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_filterSelection"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="filter_left">
-<entry key="numrules" type="xint" value="0"/>
-<entry key="operator" type="xint" value="0"/>
-</config>
-<config key="filter_right_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_filterSelection"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="filter_right">
-<entry key="numrules" type="xint" value="0"/>
-<entry key="operator" type="xint" value="0"/>
-</config>
 <config key="segment_feature_set_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -71,9 +35,45 @@
 <entry key="array-size" type="xint" value="1"/>
 <entry key="0" type="xstring" value="Segment geometry"/>
 </config>
+<config key="lab_column_selection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="lab_column_selection" type="xstring" value="Image"/>
+<config key="mode_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="mode" type="xboolean" value="false"/>
+<config key="filter_left_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterSelection"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="filter_left">
+<entry key="numrules" type="xint" value="0"/>
+<entry key="operator" type="xint" value="0"/>
+</config>
+<config key="filter_right_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterSelection"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="filter_right">
+<entry key="numrules" type="xint" value="0"/>
+<entry key="operator" type="xint" value="0"/>
+</config>
+<config key="appendDependencies_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="appendDependencies" type="xboolean" value="false"/>
+<config key="append_segment_information_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="append_segment_information" type="xboolean" value="true"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.knip.base.nodes.features.LabFeatureSetNodeFactory"/>
 <entry key="node-name" type="xstring" value="Segment Features"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Image Types and Nodes"/>
@@ -82,19 +82,16 @@
 <entry key="node-bundle-version" type="xstring" value="1.2.1.201409111355"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Segment Features"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 175, Cols: 4"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
-<entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="bcf7f22f-2636-431a-aa2d-bb697a0e5871"/>
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

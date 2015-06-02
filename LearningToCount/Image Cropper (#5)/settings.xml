@@ -35,13 +35,7 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="cfg_subset_selection">
-<entry key="num_selected_dims" type="xint" value="1"/>
-<entry key="selected_dimlabel_0" type="xstring" value="Channel"/>
-<config key="selection_Channel">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xint" value="1"/>
-</config>
-<entry key="includemode_Channel" type="xboolean" value="true"/>
+<entry key="num_selected_dims" type="xint" value="0"/>
 </config>
 <config key="cfg_adjust_dimensionality_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
@@ -82,6 +76,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="b030230d-d33f-42a6-999b-4e182ee25143"/>
+<entry key="file_store_id" type="xstring" value="af56788f-1e81-4959-9cd6-18210cf62137"/>
 </config>
 </config>
